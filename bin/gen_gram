@@ -1,0 +1,4 @@
+#! /usr/bin/env ruby
+require_relative '../lib/gen_gram'
+
+puts GenGram::Grammar.random_sentence.inspect
